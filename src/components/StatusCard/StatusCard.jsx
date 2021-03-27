@@ -32,9 +32,7 @@ const StatusCard = ({ course }) => {
               </span>
             </div>
             <div className="column">
-              <button className="button is-small is-outlined">
-                View Course
-              </button>
+              <button className="button is-outlined">View Course</button>
             </div>
           </div>
         </div>

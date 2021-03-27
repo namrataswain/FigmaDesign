@@ -1,4 +1,5 @@
 import React from "react";
+import LineChart from "../LineChart/LineChart";
 
 const RightBar = () => {
   return (
@@ -27,18 +28,30 @@ const RightBar = () => {
       <div className="field is-horizontal">
         <div className="column ">
           <div class="box has-background-light ">
-            <div class="content">
-              <p>courses</p>
-              <p>completed</p>
+            <div class="columns content">
+              <div className=" column">
+                <p className="has-text-weight-bold is-size-1 has-text-justified">
+                  11
+                </p>
+              </div>
+              <div className="column">
+                <p>Courses</p>
+                <p>completed</p>
+              </div>
             </div>
           </div>
         </div>
 
-        <div className="column">
-          <div class="box">
-            <div class="content">
-              <p>courses</p>
-              <p>completed</p>
+        <div className="column ">
+          <div class="box has-background-light ">
+            <div class="columns content">
+              <div className="column is-4">
+                <p className="has-text-weight-bold is-size-1">4</p>
+              </div>
+              <div className="column">
+                <p>Courses </p>
+                <p> in progress</p>
+              </div>
             </div>
           </div>
         </div>
@@ -61,8 +74,7 @@ const RightBar = () => {
         </div>
         <div class="box">
           <div class="content">
-            <p>courses</p>
-            <p>completed</p>
+            <LineChart />
           </div>
         </div>
       </div>

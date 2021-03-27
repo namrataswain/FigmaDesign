@@ -6,7 +6,6 @@ import RightBar from "./components/RightBar/RightBar";
 function App() {
   return (
     <div className=" section columns">
-      <div className="column"></div>
       <LeftBar />
       <div className="column"></div>
       <div className=" column is-7 card">
